@@ -14,6 +14,7 @@
 
 package model
 
+// Restore represents 
 type Restore struct {
 	Days         int64  `json:"days,omitempty"`
 	Tier         string `json:"tier,omitempty"`
